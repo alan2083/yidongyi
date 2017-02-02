@@ -1,4 +1,4 @@
-﻿package com.sectong.thirdparty.sms;
+package com.sectong.thirdparty.sms;
 
 import java.io.ByteArrayOutputStream;
 import java.io.InputStream;
@@ -13,14 +13,14 @@ import org.apache.commons.httpclient.methods.GetMethod;
 import org.apache.commons.httpclient.params.HttpClientParams;
 
 /**
- * 短信平台
+ * ????
  * 
  * @author jiekechoo
  *
  */
 public class SendSMS {
 	/**
-	 * 群发短信
+	 * ????
 	 * 
 	 * @param url
 	 * @param account
@@ -62,7 +62,7 @@ public class SendSMS {
 	}
 
 	/**
-	 * 检查账号状态
+	 * ??????
 	 * 
 	 * @param account
 	 * @param password
@@ -70,7 +70,7 @@ public class SendSMS {
 	 * @throws Exception
 	 */
 	public static String checkAccountStatus(String account, String password) throws Exception {
-		String url = "http://erp.253.com/api/";// 应用地址
+		String url = "http://erp.253.com/api/";// ????
 		HttpClient client = new HttpClient(new HttpClientParams(), new SimpleHttpConnectionManager(true));
 		GetMethod method = new GetMethod();
 		try {
